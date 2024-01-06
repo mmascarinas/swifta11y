@@ -1,10 +1,35 @@
 {
-  "name": "eslint",
-  "version": "9.0.0-alpha.0",
-  "author": "Nicholas C. Zakas <nicholas+npm@nczconsulting.com>",
-  "description": "An AST-based pattern checker for JavaScript.",
+  "name": "swifta11y",
+  "version": "0.0.1",
+  "contributors": [
+    {
+      "name": "Carlson Orozco",
+      "email": "carlson.orozco@cambridge.org"
+    },
+    {
+      "name": "Renzo Sunico",
+      "email": "renzo.sunico@cambridge.org"
+    },
+    {
+      "name": "Moris Mascariñas",
+      "email": "moris.mascarinas@cambridge.org"
+    },
+    {
+      "name": "Russel Herrera",
+      "email": "russel.herrera@cambridge.org"
+    },
+    {
+      "name": "Joven Miclat",
+      "email": "joven.miclat@cambridge.org"
+    },
+    {
+      "name": "Earl Bequillo",
+      "email": "earl.bequillo@cambridge.org"
+    }
+  ],
+  "description": "An AI-based accessibility linting tool",
   "bin": {
-    "eslint": "./bin/eslint.js"
+    "swifta11y": "./bin/eslint.js"
   },
   "main": "./lib/api.js",
   "exports": {
@@ -164,6 +189,7 @@
     "yorkie": "^2.0.0"
   },
   "keywords": [
+    "swifta11y",
     "ast",
     "lint",
     "javascript",
