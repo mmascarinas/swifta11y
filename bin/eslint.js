@@ -148,6 +148,14 @@ ${getErrorMessage(error)}`;
         return;
     }
 
+    // Added by Moris I. Mascariñas January 8, 2024
+    // overwrites the config file to use the swifta11yrc.js instead of the default .eslintrc.js
+
+    if (!process.argv.includes("--config")) {
+        process.argv.push("--config");
+        process.argv.push("swifta11yrc.js");
+    }
+
     // Otherwise, call the CLI.
     const exitCode = await require("../lib/cli").execute(
         process.argv,
