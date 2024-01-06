@@ -11,22 +11,6 @@ An AI-based accessibiliy linting tool forked from ESLint.
 * ESLint is completely pluggable, every single rule is a plugin and you can add more at runtime.
 * Uses an OpenAI wrapper extension to fix the accessiblity issues based of ESlint accessibility plugins.
 
-## Table of Contents
-
-1. [Installation and Usage](#installation-and-usage)
-2. [Configuration](#configuration)
-3. [Code of Conduct](#code-of-conduct)
-4. [Filing Issues](#filing-issues)
-5. [Frequently Asked Questions](#frequently-asked-questions)
-6. [Releases](#releases)
-7. [Security Policy](#security-policy)
-8. [Semantic Versioning Policy](#semantic-versioning-policy)
-9. [Stylistic Rule Updates](#stylistic-rule-updates)
-10. [License](#license)
-11. [Team](#team)
-12. [Sponsors](#sponsors)
-13. [Technology Sponsors](#technology-sponsors)
-
 ## Installation
 
 Prerequisites: [Node.js](https://nodejs.org/) (`^18.18.0`, `^20.9.0`, or `>=21.1.0`) built with SSL support. (If you are using an official Node.js distribution, SSL is always built in.)
@@ -46,7 +30,7 @@ npm install eslint-plugin-vue-a11y --legacy-peer-deps
 npm install eslint-plugin-vuejs-accessibility
 ```
 
-After that, create a configfile named .swifta11yrc.js . Please run the following command :
+After that, create a config file named .swifta11yrc.js . Please run the following command :
 
 ```shell
 touch .swifta11yrc.js
